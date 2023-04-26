@@ -2,6 +2,20 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@rc/core": [
+        "dist/rc/core"
+      ],
+      "@rc/footer": [
+        "dist/rc/footer"
+      ],
+      "@rc/header": [
+        "dist/rc/header"
+      ],
+      "@rc/side-menu": [
+        "dist/rc/side-menu"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
